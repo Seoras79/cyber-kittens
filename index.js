@@ -67,7 +67,7 @@ app.post('/register', async (req, res, next) => {
 // GET /kittens/:id
 // TODO - takes an id and returns the cat with that id
 app.get('/:id', async (req, res, next) => {
-
+  
 })
 // POST /kittens
 // TODO - takes req.body of {name, age, color} and creates a new cat with the given name, age, and color
